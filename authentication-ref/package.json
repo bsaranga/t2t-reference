@@ -7,8 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "migrate:db": "npx prisma migrate deploy",
     "migrate:test:db": "dotenv -e .env.test -- npx prisma migrate deploy",
-    "test": "dotenv -e .env.test -- jest -i"
+    "test": "dotenv -e .env.test -- jest -i",
+    "seed": "node ./src/scripts/seed.js"
   },
   "dependencies": {
     "@prisma/client": "^5.18.0",
