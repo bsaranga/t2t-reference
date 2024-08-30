@@ -1,0 +1,9 @@
+[
+    {
+        "id": "975aa321-f6ac-464a-8c55-bafbf9ac59b0",
+        "name": "John Doe",
+        "email": "johndoe@aol.com",
+        "password": "$2a$10$hOoQBvN/L5EkQaG.aT.lGuf/j2BaV0gRCcbMkKPLXfSIKaRCMw596",
+        "role": "admin"
+    }
+]
